@@ -1,0 +1,8 @@
+BasedOnStyle: GOOGLE
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: false
+ColumnLimit: 100
+SortIncludes: false

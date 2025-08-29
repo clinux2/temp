@@ -1,0 +1,46 @@
+{
+    "users": [
+      { "id": 1, "name": "Alice", "conversations": [1] },
+      { "id": 2, "name": "Bob", "conversations": [1, 2]},
+      { "id": 3, "name": "Charlie", "conversations": [2]}
+    ],
+    "conversations": [
+      {
+        "id": 1,
+        "users": [1, 2],
+        "messages": [
+          {
+            "id": 1,
+            "sender_id": 1,
+            "content": "Hello Bob!",
+            "created_at": "2025-06-27T10:00:00Z"
+          },
+          {
+            "id": 2,
+            "sender_id": 2,
+            "content": "Hi Alice, how are you?",
+            "created_at": "2025-06-27T10:01:00Z"
+          }
+        ]
+      }, 
+      {
+        "id": 2,
+        "users": [2, 3],
+        "messages": [
+          {
+            "id": 1,
+            "sender_id": 2,
+            "content": "Hey Charlie!",
+            "created_at": "2025-06-27T11:00:00Z"
+          },
+          {
+            "id": 2,
+            "sender_id": 3,
+            "content": "Hi Bob, how are you?",
+            "created_at": "2025-06-27T11:01:00Z"
+          }
+        ]
+      }
+    ]
+  }
+  
